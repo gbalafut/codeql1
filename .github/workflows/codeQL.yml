@@ -22,4 +22,5 @@ jobs:
         uses: github/codeql-action/init@v1
         with:
          config-file: ./.github/codeql/codeql-config.yml
+         languages: javascript,python
    
